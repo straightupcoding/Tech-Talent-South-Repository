@@ -13,3 +13,4 @@ public class HomeController {
 	}
 
 }
+//@RequestMapping This annotation maps HTTP requests to handler methods of MVC and REST controllers.
