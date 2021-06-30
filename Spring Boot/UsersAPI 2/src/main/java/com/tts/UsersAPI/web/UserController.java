@@ -39,7 +39,6 @@ public class UserController {
 	@PostMapping("/users")
 	public ResponseEntity<Void> createUser(@RequestBody User user){
 	repository.save(user);
-	
 	return new ResponseEntity<Void>(HttpStatus.OK);
 	}
 	//Update
